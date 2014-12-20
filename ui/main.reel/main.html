@@ -18,27 +18,7 @@
             "properties": {
                 "element": {"#": "button"},
                 "enabled": true,
-                "label": "New task"
-            }
-        },
-        "list": {
-            "prototype": "digit/ui/list.reel",
-            "properties": {
-                "content": [
-                    "",
-                    ""
-                ],
-                "contentController": {"@": "rangeController"}
-            }
-        },
-        "rangeController": {
-            "prototype": "montage/core/range-controller"
-        },
-        "title": {
-            "prototype": "digit/ui/title.reel",
-            "properties": {
-                "element": {"#": "title"},
-                "value": "Things To Do"
+                "label": "Button"
             }
         }
     }
@@ -46,7 +26,6 @@
 </head>
 <body>
     <div data-montage-id="main" data-montage-skin="light" class="Main">
-        <h1 data-montage-id="title"></h1>
         <button data-montage-id="button"></button>
     </div>
 </body>
